@@ -1,0 +1,2 @@
+[console_scripts]
+codez_agent = codez:main

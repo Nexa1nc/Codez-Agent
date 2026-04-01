@@ -1,0 +1,10 @@
+README.md
+codez.py
+license
+setup.py
+Codez_Agent.egg-info/PKG-INFO
+Codez_Agent.egg-info/SOURCES.txt
+Codez_Agent.egg-info/dependency_links.txt
+Codez_Agent.egg-info/entry_points.txt
+Codez_Agent.egg-info/requires.txt
+Codez_Agent.egg-info/top_level.txt
