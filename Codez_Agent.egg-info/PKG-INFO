@@ -1,6 +1,6 @@
 Metadata-Version: 2.4
 Name: Codez-Agent
-Version: 0.1.1
+Version: 0.2.5
 Summary: Un assistente AI per il terminale con accesso ai comandi
 Home-page: https://github.com/tuonome/codez
 Author: Mattia Ristori
@@ -12,11 +12,28 @@ Description-Content-Type: text/markdown
 License-File: license
 Requires-Dist: requests
 Requires-Dist: rich
+Requires-Dist: psutil
 Dynamic: author
 Dynamic: classifier
+Dynamic: description
 Dynamic: description-content-type
 Dynamic: home-page
 Dynamic: license-file
 Dynamic: requires-dist
 Dynamic: requires-python
 Dynamic: summary
+
+# ðŸ’» Codez: Il tuo AI Agent nel Terminale
+
+**Codez** Ã¨ un assistente intelligente per riga di comando che puÃ² interagire con il tuo PC, creare file, cartelle e aiutarti a programmare usando i modelli AI piÃ¹ potenti (Ollama, Groq, OpenAI).
+
+## ðŸš€ Caratteristiche
+- **Multi-Provider**: Supporta Ollama (Locale), Groq e OpenAI.
+- **Accesso al Terminale**: PuÃ² eseguire comandi (previa tua autorizzazione).
+- **Slash Commands**: Usa `/stop` per uscire e `/change` per cambiare modello al volo.
+- **Sicurezza**: Ogni comando critico richiede la tua conferma (y/n).
+
+## ðŸ“¦ Installazione
+Puoi installarlo direttamente tramite pip:
+```bash
+pip install Codez

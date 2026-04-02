@@ -3,7 +3,7 @@ from setuptools import setup
 
 setup(
     name='Codez-Agent',  # Prova a usare un nome unico come questo
-    version='0.1.1',
+    version='0.2.5',
     description='Un assistente AI per il terminale con accesso ai comandi',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
@@ -13,6 +13,7 @@ setup(
     install_requires=[
         'requests',
         'rich',
+        'psutil',
     ],
     entry_points={
         'console_scripts': [
