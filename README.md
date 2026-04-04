@@ -11,4 +11,5 @@
 ## 📦 Installazione
 Puoi installarlo direttamente tramite pip:
 ```bash
-pip install Codez
+pip install Codez-Agent (windows) 
+pip3 install Codez-Agent (MacOS) 
